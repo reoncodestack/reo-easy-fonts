@@ -19,14 +19,14 @@ class KStyles {
       return GoogleFonts.getFont(fontFamily,
           color: style.color,
           height: style.height,
-          fontSize: style.fontSize?.sp,
+          fontSize: style.fontSize,
           fontWeight: style.fontWeight);
     } else {
       return TextStyle(
           color: style.color,
           height: style.height,
           fontFamily: fontFamily,
-          fontSize: style.fontSize?.sp,
+          fontSize: style.fontSize,
           fontWeight: style.fontWeight);
     }
   }
